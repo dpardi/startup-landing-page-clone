@@ -21,8 +21,11 @@ div {
 	padding: 0 0.938rem;
 	margin: 0 auto;
 	min-width: 37.5rem;
+	.content 
 }
 
+
+}
 /** Navigation Section */
 
 .top-navigation {
@@ -38,9 +41,12 @@ div {
 	margin-top: 1.7rem;
 	display: inline-block;
 	margin-left: 1.5634rem;
-
 	}
 
+.content {
+	width: 800px;
+
+}
 .logo {
 	height: 4.375rem;
 }
@@ -50,6 +56,7 @@ div {
 	color: #838994;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
+	font-weight: 500;
 }
 
 li {
@@ -60,6 +67,46 @@ li {
 
 li.active {
 	color: #4c5058;
-	font-weight: 500;
+	font-weight: bold;
 }
 
+/** Introduction Section*/
+
+.introduction {
+	background-image:url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+	text-align: center;
+	font-weight: 300;
+	color: white;
+}
+
+h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+
+
+.buttons {
+    background-color: #f15b2a; /* tomato, rbg(241, 91, 42) */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1.563px 2px 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px
+}
