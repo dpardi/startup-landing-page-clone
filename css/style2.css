@@ -1,0 +1,25 @@
+div {
+    border: 1px solid Chocolate;
+}
+
+/** Navigation Section */
+
+.content {
+	padding: o 15px;
+}
+
+.top-navigation {
+background-color: #fff;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+li {
+	display: inline-block;
+	float: right;
+}
+
