@@ -81,41 +81,28 @@ button {
 }
 
 /*Cases Section **/
-
 .cases {
-	font-size: 1.75rem;
-	margin: 1.625rem 0 3.125rem;
-	font-weight: 300;
-	margin-top: 7.875rem;
+	padding-bottom: 5rem;
+	text-align: center;
+
+}
+
+.cases > .content {
+	margin-top: 7.85rem;
+	color: #1d1e21;
 	text-align: center;
 }
 
-.cases h2 {
+.cases > .content > h2 {
 	font-size: 2.75rem;
 	margin: 1.625rem 0 3.125rem;
 	font-weight: 300;
 }
 
-.devices {
-	float: left;
-	display: inline-block;
-}
-/*.cases .devices > li {
-	float: left;
-	display: inline-block;
-}
-*/
+.caption > h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0 1.875rem;
 
-/*.introduction .buttons {
-    color: white;
-    text-align: center;
-    margin-top: 1.563rem;
 }
-.introduction .half {
-    width: 49%;
-    padding: 0 0.938rem;
-    display: inline-block;
-    vertical-align: bottom;
-    font-size: 1.125rem;
-    line-height: 1.2;
-}**/
+
