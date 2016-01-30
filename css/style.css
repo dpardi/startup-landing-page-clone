@@ -10,9 +10,8 @@ ol, ul {
 
 
 div {
-	border: 1px solid #DDD
-	display: block;
-	padding: 20.5px;
+	border: 1px solid #DDD;
+	display: block;	
 }
 
 .content {
@@ -36,12 +35,12 @@ div {
     border-bottom: 1px solid #DDD;
     z-index: 9999;
     height: 4.375rem;
-    float: right;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
 	margin-left: 1.5634rem;
 	font-weight: 500;
 	color: #838994;
+	
 	}
 
 .content {
@@ -85,6 +84,7 @@ li.active {
 
 h1 {
 	margin-top: 17.5rem;
+	padding: 0 0.938rem;
 	font-size: 3.125rem;
 	color: white;
 }
@@ -106,7 +106,7 @@ h3 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 1.563px 2px 4px 2px;
+    margin: 1.563px 1px 4px 1px;
     cursor: pointer;
     text-align: center;
     border-radius: 4px
