@@ -80,9 +80,42 @@ button {
     font-size: 16px;
 }
 
+/*Cases Section **/
 
+.cases {
+	font-size: 1.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+	margin-top: 7.875rem;
+	text-align: center;
+}
 
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
 
+.devices {
+	float: left;
+	display: inline-block;
+}
+/*.cases .devices > li {
+	float: left;
+	display: inline-block;
+}
+*/
 
-
-
+/*.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+.introduction .half {
+    width: 49%;
+    padding: 0 0.938rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}**/
