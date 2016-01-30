@@ -1,6 +1,5 @@
 
 html {
-	box-sizing: border-box;
 	vertical-align: baseline;
 	font-size: 100%;
 	border: 0;
@@ -12,6 +11,7 @@ html {
 body {
 	font-family: "Roboto", sans-serif;
 	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
 }
 
 div {
@@ -23,8 +23,6 @@ div {
 	padding: 0 .938rem;
 	min-width: 37.5rem;
 	width: 78%;
-	
-
 }
 
 :focus {
@@ -32,15 +30,12 @@ div {
 }
 
 /*Navigation Section **/
-
-.top-navigation {
+nav {
 	background-color: #fff;
-	position: fixed;
+    position: fixed;
     width: 100%;
     border-bottom: 1px solid #DDD;
-    z-index: 10000;
-    position: relative;
-
+    z-index: 9999;
 }
 
 img {
@@ -82,7 +77,7 @@ li:hover {
 	text-align: center;
 	height: 45.938rem;
 	overflow: auto;
-	font-weight: 300px;
+	font-weight: 300;
 	color: white;
 	margin: 0;
 }
@@ -121,7 +116,6 @@ button:hover {
 .cases {
 	overflow: hidden;
 	padding-bottom: 5rem;
-	text-align: center;
 }
 
 .cases > .content {
@@ -129,9 +123,7 @@ button:hover {
 	color: #1d1e21;
 	text-align: center;
 	padding: none;
-
 }
-
 
 }
 .cases > .content > h2 {
@@ -159,8 +151,7 @@ button:hover {
     background-color: #fff;
     overflow: auto;
     padding-bottom: 9.375rem;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 h5 {
@@ -169,8 +160,7 @@ h5 {
     margin: 1.313rem 0;
     font-size: 100%;
     display: box;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .icons > li {
