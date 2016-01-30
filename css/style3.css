@@ -1,6 +1,17 @@
 
+html {
+	box-sizing: border-box;
+	vertical-align: baseline;
+	font-size: 100%;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+
 body {
 	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 div {
@@ -11,13 +22,25 @@ div {
 	margin: 0 auto;
 	padding: 0 .938rem;
 	min-width: 37.5rem;
-	width: 809px;
+	width: 78%;
+	
+
+}
+
+:focus {
+	outline: none;
 }
 
 /*Navigation Section **/
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 10000;
+    position: relative;
+
 }
 
 img {
@@ -35,7 +58,13 @@ ul.links {
 	margin-top: 17px;
 	float: right;
 	font-weight: 500;
-	width: 507px;
+	width: 507px; /*should i use a percentage vs exact, this is the only way i could get the 
+	text to not collapse upon closing browser**/
+}
+
+li:hover {
+    cursor: pointer;
+    color: #333333;
 }
 
 
@@ -62,12 +91,14 @@ h1 {
 	margin-top: 17.5rem;
 	height: 50px;
 	font-size: 3.125rem;
+	font-weight: 300;
 }
 
 h3 {
 	height: 25px;
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
+	font-weight: 300;
 }
 
 button {
@@ -77,22 +108,32 @@ button {
 	border: none;
 	border-radius: 4px;
     color: white;
-    font-size: 16px;
+    font-size: 1.125rem;
+}
+
+button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+	cursor: pointer;
 }
 
 /*Cases Section **/
 .cases {
+	overflow: hidden;
 	padding-bottom: 5rem;
 	text-align: center;
-
 }
 
 .cases > .content {
 	margin-top: 7.85rem;
 	color: #1d1e21;
 	text-align: center;
+	padding: none;
+
 }
 
+
+}
 .cases > .content > h2 {
 	font-size: 2.75rem;
 	margin: 1.625rem 0 3.125rem;
@@ -103,6 +144,62 @@ button {
 	font-weight: 400;
 	font-size: 1.563rem;
 	margin: 2.5rem 0 1.875rem;
+}
+
+.devices {
+	margin: 0;
+	padding: 0;
+}
 
 }
 
+/* Footer **/
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+    
+}
+
+h5 {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+    font-size: 100%;
+    display: box;
+    text-align: center;
+    
+}
+
+.icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.social .icons > li:hover {
+   cursor: pointer;
+}
+
+.twitter {
+    color: #55acee;
+}
+.facebook {
+    color: #4c66a4;
+}
+.instagram {
+    color: #3f729b;
+}
+
+.copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
