@@ -37,7 +37,7 @@ body {
 }
 
 div {
-	border: 1px solid #ddd;
+	/**border: 1px solid #ddd;**/
 }
 
 .content {
@@ -75,7 +75,7 @@ li {
 
 ul.links {
 	color: #838994;
-	font-size: 16px;
+	font-size: 16.5px;
 	margin-top: 17px;
 	float: right;
 	font-weight: 500;
@@ -89,8 +89,9 @@ li:hover {
 }
 
 
-.active {
+li.active {
 	color: #4c5058;
+	font-weight: 500;
 }
 
 /*Introduction Section **/
