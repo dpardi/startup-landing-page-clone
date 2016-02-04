@@ -1,4 +1,26 @@
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
 html {
 	vertical-align: baseline;
 	font-size: 100%;
@@ -30,13 +52,17 @@ div {
 }
 
 /*Navigation Section **/
+
+/*override of normalized stylesheet to fix navigation bar to top*/
 nav {
 	background-color: #fff;
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #DDD;
     z-index: 9999;
+    height: 71px;
 }
+
 
 img {
 	margin-top: .5rem;
@@ -94,6 +120,7 @@ h3 {
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
 	font-weight: 300;
+	margin-bottom: 1.563rem;
 }
 
 button {
@@ -125,12 +152,12 @@ button:hover {
 	padding: none;
 }
 
-}
-.cases > .content > h2 {
+.content > h2 {
 	font-size: 2.75rem;
 	margin: 1.625rem 0 3.125rem;
 	font-weight: 300;
 }
+
 
 .caption > h3 {
 	font-weight: 400;
@@ -141,8 +168,6 @@ button:hover {
 .devices {
 	margin: 0;
 	padding: 0;
-}
-
 }
 
 /* Footer **/
@@ -181,9 +206,11 @@ h5 {
 .twitter {
     color: #55acee;
 }
+
 .facebook {
     color: #4c66a4;
 }
+
 .instagram {
     color: #3f729b;
 }
@@ -193,3 +220,4 @@ h5 {
     font-weight: 300;
     color: #838994;
 }
+
