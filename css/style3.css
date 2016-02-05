@@ -62,6 +62,9 @@ nav {
     height: 71px;
 }
 
+.top-navigation {
+	background-color: #fff;
+}
 
 img {
 	margin-top: .5rem;
